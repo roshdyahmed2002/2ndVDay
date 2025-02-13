@@ -161,7 +161,7 @@ if(sessionStorage.getItem("room3")==="visited" && document.getElementById("room3
 
 if(document.getElementById("QuitBtn") && document.getElementById("QuitBtn")){
     document.getElementById("QuitBtn").addEventListener("click",function(){
-        window.location.href = "home.html"
+        window.location.href = "index.html"
     })
 }
 
