@@ -1,0 +1,110 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    background: url(images/heartBackground.png) no-repeat center center;
+    background-size: 100% 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.containerFlexColumn {
+    display: flex;
+    background: url(images/heartBackground.png) no-repeat center center;
+    background-size: 100% 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.containerFlexColumnNo {
+    display: flex;
+    background: url(images/No.png);
+    background-size:contain;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-welcome {
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    width:400px;
+    height: 300px;
+    border-radius: 15%;
+}
+.card button{
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+}
+.card button:hover{
+    background-color: lightcoral;
+}
+
+.card-pick{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    min-width:400px;
+    max-width: fit-content;
+    height: 300px;
+    border-radius: 15%;
+}
+.card-pick button{
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+}
+.card-pick button:hover{
+    background-color: lightcoral;
+}
+
+.buttons button{
+    margin-top: 100px;
+    margin: 10px;
+}
+.mshDa{
+    width: 90%;
+}
+h2{
+    margin-bottom: 5px;
+}
+.hanhrag{
+    width: 70%;
+}
+.flex{
+    display: flex;
+}
+.cardYes{
+    height: 400px;
+}
+.hearts{
+    margin-top: 5px;
+}
+.BackButton{
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color:black;
+    color: white;
+}
